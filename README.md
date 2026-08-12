@@ -2,6 +2,18 @@
 
 An AI-powered automation that predicts patient no-show risk using **Make.com, Claude AI, Google Sheets, and Notion** — built entirely no-code.
 
+## 📸 Screenshots
+
+### Automation Workflow
+![Make Scenario](make-scenario.png)
+
+### Google Sheets Input Data
+![Google Sheets Input](google-sheets-input.png)
+
+### Notion Results
+![Notion Results 1](Notion-results1.png)
+![Notion Results 2](notion-results2.png)
+
 ## 🚀 What It Does
 
 - Ingests patient appointment data from Google Sheets
@@ -36,13 +48,6 @@ Each patient gets:
 3. **Set up your data** in Google Sheets with the required columns
 4. **Run the scenario**
 
-## 📁 Repository Contents
-
-| File | Description |
-|------|-------------|
-| `patient-no-show-risk-predictor.blueprint.json` | The Make.com scenario export |
-| `screenshot.png` | Automation workflow preview |
-
 ## 🛠️ Tech Stack
 
 - Make.com (orchestration)
@@ -50,6 +55,16 @@ Each patient gets:
 - Google Sheets (data source)
 - Notion (output dashboard)
 - OpenRouter (Claude API access)
+
+## 📁 Repository Contents
+
+| File | Description |
+|------|-------------|
+| `patient-no-show-risk-predictor.blueprint.json` | The Make.com scenario export |
+| `make-scenario.png` | Automation workflow preview |
+| `google-sheets-input.png` | Sample input data |
+| `Notion-results1.png` | Notion output dashboard |
+| `notion-results2.png` | Notion results detail |
 
 ## 📌 Requirements
 
